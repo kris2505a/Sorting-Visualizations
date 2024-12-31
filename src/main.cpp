@@ -11,7 +11,6 @@ int main() {
 	SelectionSort sort(n);
 	sort.printHeights();
 	sf::RenderWindow window(sf::VideoMode({ WIN_WIDTH, WIN_HEIGHT }), "TestWindow", sf::Style::Close);
-	window.setFramerateLimit(WIN_FPS);
 
 	while (window.isOpen()) {
 

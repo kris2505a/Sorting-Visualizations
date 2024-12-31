@@ -37,9 +37,9 @@ void Sort::generateRectangles() {
 		auto rect = new sf::RectangleShape({ this->width, this->heights.at(i) });
 		rect->setFillColor(sf::Color::Red);
 		rect->setOutlineColor(sf::Color::White);
-		rect->setOutlineThickness(3.0f);
+		rect->setOutlineThickness(1.0f);
 		this->rectangles.push_back(rect);
-		rect->setPosition({ deltaX + 3.0f, WIN_HEIGHT - this->heights.at(i) });
+		rect->setPosition({ deltaX + 1.0f, WIN_HEIGHT - this->heights.at(i) });
 		deltaX += this->width;
 	}
 }
