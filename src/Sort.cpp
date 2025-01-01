@@ -19,9 +19,9 @@ void Sort::generateHeight() {
 	for (size_t i{ 1 }; i <= this->size; i++) {
 		this->heights.push_back(deltaHeight * i);
 	}
-	std::random_device rd;
-	std::mt19937 g(rd());
-	std::shuffle(this->heights.begin(), this->heights.end(), g);
+	std::random_device randdev;
+	std::mt19937 seq(randdev());
+	std::shuffle(this->heights.begin(), this->heights.end(), seq);
 }
 
 void Sort::printHeights() {
