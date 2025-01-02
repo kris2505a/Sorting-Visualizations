@@ -49,3 +49,9 @@ void Sort::render(sf::RenderWindow* window) {
 		window->draw(*i);
 	}
 }
+
+Sort::~Sort() {
+	for (auto i : rectangles) {
+		delete i;
+	}
+}

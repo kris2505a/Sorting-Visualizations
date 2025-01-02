@@ -1,10 +1,8 @@
 #pragma once
 #include "Sort.h"
 
-class SelectionSort : public Sort {
+class InsertionSort : public Sort {
 public:
-	SelectionSort(int);
+	InsertionSort(int);
 	virtual void sortArray();
 };
-
-

@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\InsertionSort.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\SelectionSort.cpp" />
     <ClCompile Include="src\Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Headers\Config.h" />
+    <ClInclude Include="src\Headers\InsertionSort.h" />
     <ClInclude Include="src\Headers\SelectionSort.h" />
     <ClInclude Include="src\Headers\Sort.h" />
   </ItemGroup>

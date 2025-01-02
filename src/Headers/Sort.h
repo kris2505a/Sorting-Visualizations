@@ -14,6 +14,7 @@ protected:
 
 public:
 	Sort(int);
+	virtual ~Sort();
 	void generateHeight();
 	void generateRectangles();
 	void printHeights();
